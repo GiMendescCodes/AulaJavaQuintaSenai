@@ -1,19 +1,49 @@
-import javax.swing.*;
+import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-    int num = 10;
-    int num1 = 10;
 
-        System.out.println(num+num1);
 
-        String InputSenaiJava = JOptionPane.showInputDialog("??");
+        // pergunta//
 
-        int input = Integer.parseInt(InputSenaiJava);
-        input++;
 
-//        String InputSenaiJava = JOptionPane.showInputDialog("??");
+        //        String InputSenaiJava = JOptionPane.showInputDialog("??");
+        //
+        //        int input = Integer.parseInt(InputSenaiJava);
+        //        input++;
+        //
+        //        String InputSenaiJava = JOptionPane.showInputDialog("??");
+
+
+        //opções//
+//
+//        String[] SenaiValues = {"Aluno 1", "Aluno 2", "Aluno 3"};
+//        String Input2 = (String)JOptionPane.showInputDialog(null,
+//
+//                "Quem tirou nota maxima na prova? ",
+//                "Título da Caixa de Diálogo",
+//                2,
+//                null,
+//                SenaiValues,
+//                SenaiValues[1]);
+
+
+       //scanner
+
+//        Scanner SenaiScanner = new Scanner(System.in);
+//
+//        // Lendo os valores
+//        int x = SenaiScanner.nextInt();  // Sem parâmetro
+//        double y = SenaiScanner.nextDouble();  // Sem parâmetro
+//        SenaiScanner.nextLine();  // Consumindo a nova linha que fica pendente após nextDouble
+//        String z = SenaiScanner.nextLine();  // Lendo a linha inteira
+//
+//        // Imprimindo os valores
+//        System.out.println(x);
+//        System.out.println(y);
+//        System.out.println(z);
+//
+//        // Fechando o scanner
+//        SenaiScanner.close();
     }
 }
