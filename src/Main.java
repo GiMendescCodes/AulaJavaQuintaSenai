@@ -14,6 +14,6 @@ public class Main {
         int input = Integer.parseInt(InputSenaiJava);
         input++;
 
-        String InputSenaiJava = JOptionPane.showInputDialog("??");
+//        String InputSenaiJava = JOptionPane.showInputDialog("??");
     }
 }
