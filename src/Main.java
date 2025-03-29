@@ -1,10 +1,12 @@
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner SenaiScanner = new Scanner(System.in);
 
 
-        // pergunta//
+        //PERGUNTA//
 
 
         //        String InputSenaiJava = JOptionPane.showInputDialog("??");
@@ -15,7 +17,7 @@ public class Main {
         //        String InputSenaiJava = JOptionPane.showInputDialog("??");
 
 
-        //opções//
+        //OPÇÕES//
 //
 //        String[] SenaiValues = {"Aluno 1", "Aluno 2", "Aluno 3"};
 //        String Input2 = (String)JOptionPane.showInputDialog(null,
@@ -28,7 +30,7 @@ public class Main {
 //                SenaiValues[1]);
 
 
-       //scanner
+       //SCANNER
 
 //        Scanner SenaiScanner = new Scanner(System.in);
 //
@@ -45,5 +47,13 @@ public class Main {
 //
 //        // Fechando o scanner
 //        SenaiScanner.close();
+
+        //CONVERSÃO DE TIPOS COM JOPTIONOANE//
+
+//        String input = JOptionPane.showInputDialog("Digite um número:");
+//        int numero = Integer.parseInt(input);
+//        JOptionPane.showMessageDialog(null, "O número digitado + 1 é: " + (numero+ 1));
+
+
     }
 }
