@@ -1,6 +1,8 @@
 import javax.swing.*;
 import java.util.Scanner;
-
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner SenaiScanner = new Scanner(System.in);
@@ -54,6 +56,20 @@ public class Main {
 //        int numero = Integer.parseInt(input);
 //        JOptionPane.showMessageDialog(null, "O número digitado + 1 é: " + (numero+ 1));
 
+        // LEITURA DE ARQUIVO COM SCANNER
 
-    }
-}
+                try {
+                    File arquivo = new File("dados.txt");
+                    Scanner scanner = new Scanner(arquivo);
+
+                    while (scanner.hasNextLine()) {
+                        String linha = scanner.nextLine();
+                        System.out.println(linha);
+                    }
+
+                    scanner.close();
+                } catch (FileNotFoundException e) {
+                    System.out.println("Arquivo não encontrado.");
+                }
+            }
+        }
